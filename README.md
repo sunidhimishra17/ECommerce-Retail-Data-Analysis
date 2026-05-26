@@ -45,9 +45,9 @@ The dataset processed in this analysis (`BigBasket Products.csv`) contains the f
 
 ### 1. Clone the Repository
 
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git]
+    git clone https://github.com/sunidhimishra17/ECommerce-Retail-Data-Analysis.git
 
-    cd YOUR_REPOSITORY_NAME
+    cd ECommerce-Retail-Data-Analysis
 ### 2. Install Required Packages
 
     pip install pandas numpy matplotlib seaborn jupyter
@@ -69,7 +69,9 @@ The dataset processed in this analysis (`BigBasket Products.csv`) contains the f
    * Correlation mapping determining whether heavy discounts directly influence customer product ratings.
 
 ## Sample Visualizations Summary
- 
+
+ '''text 
+    
     [+] Executing Data Pipeline Diagnostics:
       
        - Missing Values Detected & Handled Successfully.
@@ -80,7 +82,7 @@ The dataset processed in this analysis (`BigBasket Products.csv`) contains the f
 
 ## Future Roadmap
 
-1. Integrate Automated Feature Engineering to derive discount percentages ((MRP - Sale Price) / MRP).
+1. Integrate Automated Feature Engineering to derive discount percentages (MRP - Sale Price) / MRP.
 
 2. Apply Market Basket Analysis (Apriori Algorithm) to spot frequently co-purchased categories.
 
